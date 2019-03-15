@@ -2,7 +2,7 @@
 //  SchoolsTableViewController.swift
 //  Northwest-KCProgrammingContestApp
 //
-//  Created by Gangapatnam,Vamsee Krishna on 3/13/19.
+//  Created by Gangapatnam,Vamsee Krishna on 3/14/19.
 //  Copyright © 2019 Gangapatnam,Vamsee Krishna. All rights reserved.
 //
 
@@ -32,7 +32,7 @@ class SchoolsTableViewController: UITableViewController {
     
     
     override func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
-        let cell = tableView.dequeueReusableCell(withIdentifier: "schools", for: indexPath)
+        let cell = tableView.dequeueReusableCell(withIdentifier: "SCHOOL_INFO", for: indexPath)
         cell.textLabel?.text = Schools.shared[indexPath.row].name
         cell.detailTextLabel?.text = Schools.shared[indexPath.row].coach
         return cell
@@ -43,9 +43,9 @@ class SchoolsTableViewController: UITableViewController {
     
     
     override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
-        if segue.identifier == "School Details"{
-            let schoolDetailsVC = segue.destination as! TeamsTableViewController
-            schoolDetailsVC.school = Schools.shared[tableView.indexPathForSelectedRow!.row]
+        if segue.identifier == "SCHOOL_INFORMATION"{
+            let sc = segue.destination as! TeamsTableViewController
+            sc.school = Schools.shared[tableView.indexPathForSelectedRow!.row]
         }
         
     }

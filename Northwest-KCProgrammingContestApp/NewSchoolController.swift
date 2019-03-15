@@ -2,9 +2,9 @@
 //  ViewController.swift
 //  Northwest-KCProgrammingContestApp
 //
-//  Created by Gangapatnam,Vamsee Krishnaon 3/13/19.
+//  Created by Gangapatnam,Vamsee Krishna on 3/14/19.
 //  Copyright © 2019 Gangapatnam,Vamsee Krishna. All rights reserved.
-//
+
 
 import UIKit
 
@@ -17,7 +17,6 @@ class NewSchoolController: UIViewController {
     override func viewDidLoad() {
         
         super.viewDidLoad()
-        // Do any additional setup after loading the view, typically from a nib.
     }
 
     @IBAction func done(_ sender: Any) {

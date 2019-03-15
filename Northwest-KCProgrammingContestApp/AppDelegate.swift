@@ -2,7 +2,7 @@
 //  AppDelegate.swift
 //  Northwest-KCProgrammingContestApp
 //
-//  Created by Gangapatnam,Vamsee Krishna on 3/13/19.
+//  Created by Gangapatnam,Vamsee Krishna on 3/14/19.
 //  Copyright © 2019 Gangapatnam,Vamsee Krishna. All rights reserved.
 
 
@@ -12,10 +12,7 @@ import UIKit
 class AppDelegate: UIResponder, UIApplicationDelegate {
 
     var window: UIWindow?
-    
-
-
-    
+        
     func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplication.LaunchOptionsKey: Any]?) -> Bool {
         // Override point for customization after application launch.
         return true

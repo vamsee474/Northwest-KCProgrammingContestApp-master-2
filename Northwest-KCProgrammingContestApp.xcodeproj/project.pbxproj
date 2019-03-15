@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		39D11A51223B49F3004E5221 /* schoolmodels.swift in Sources */ = {isa = PBXBuildFile; fileRef = 39D11A50223B49F3004E5221 /* schoolmodels.swift */; };
 		B5668BD02239E83100AEB882 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5668BCF2239E83100AEB882 /* AppDelegate.swift */; };
 		B5668BD22239E83100AEB882 /* NewSchoolController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5668BD12239E83100AEB882 /* NewSchoolController.swift */; };
 		B5668BD52239E83100AEB882 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B5668BD32239E83100AEB882 /* Main.storyboard */; };
@@ -16,10 +17,10 @@
 		B5668BE42239EF3B00AEB882 /* TeamsTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5668BE32239EF3B00AEB882 /* TeamsTableViewController.swift */; };
 		B5668BE62239EF5300AEB882 /* StudentsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5668BE52239EF5300AEB882 /* StudentsViewController.swift */; };
 		B5668BE82239EF6500AEB882 /* NewTeamViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5668BE72239EF6500AEB882 /* NewTeamViewController.swift */; };
-		B5668BEA2239F41B00AEB882 /* Models.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5668BE92239F41B00AEB882 /* Models.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		39D11A50223B49F3004E5221 /* schoolmodels.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = schoolmodels.swift; sourceTree = "<group>"; };
 		B5668BCC2239E83100AEB882 /* Northwest-KCProgrammingContestApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Northwest-KCProgrammingContestApp.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		B5668BCF2239E83100AEB882 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		B5668BD12239E83100AEB882 /* NewSchoolController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewSchoolController.swift; sourceTree = "<group>"; };
@@ -31,7 +32,6 @@
 		B5668BE32239EF3B00AEB882 /* TeamsTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TeamsTableViewController.swift; sourceTree = "<group>"; };
 		B5668BE52239EF5300AEB882 /* StudentsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StudentsViewController.swift; sourceTree = "<group>"; };
 		B5668BE72239EF6500AEB882 /* NewTeamViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewTeamViewController.swift; sourceTree = "<group>"; };
-		B5668BE92239F41B00AEB882 /* Models.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Models.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -74,7 +74,7 @@
 				B5668BE32239EF3B00AEB882 /* TeamsTableViewController.swift */,
 				B5668BE52239EF5300AEB882 /* StudentsViewController.swift */,
 				B5668BE72239EF6500AEB882 /* NewTeamViewController.swift */,
-				B5668BE92239F41B00AEB882 /* Models.swift */,
+				39D11A50223B49F3004E5221 /* schoolmodels.swift */,
 			);
 			path = "Northwest-KCProgrammingContestApp";
 			sourceTree = "<group>";
@@ -154,9 +154,9 @@
 				B5668BD22239E83100AEB882 /* NewSchoolController.swift in Sources */,
 				B5668BE42239EF3B00AEB882 /* TeamsTableViewController.swift in Sources */,
 				B5668BE62239EF5300AEB882 /* StudentsViewController.swift in Sources */,
+				39D11A51223B49F3004E5221 /* schoolmodels.swift in Sources */,
 				B5668BE82239EF6500AEB882 /* NewTeamViewController.swift in Sources */,
 				B5668BD02239E83100AEB882 /* AppDelegate.swift in Sources */,
-				B5668BEA2239F41B00AEB882 /* Models.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
